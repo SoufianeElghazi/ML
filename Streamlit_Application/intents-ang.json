@@ -1,0 +1,305 @@
+{"intents":
+[
+    {
+	"tag":"greetings",
+	"patterns": ["hello","hey ENOVA","hi ENOVA","good day","greetings","what's up?","how is it going"],
+	"responses":["Hello! It's great to hear from you.", "Hi there! How can I help you today?", "Hey! How's your day going?"],
+	"context": [""]
+    },
+    {
+	"tag":"goodbye",
+	"patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+	"responses":["Take care and have a great day!", "Goodbye! Don't hesitate to reach out if you need anything.", "See you soon!"],
+	"context": [""]
+    },
+    {
+	"tag": "noanswer",
+	"patterns": [" "],
+	"responses": ["I'm sorry, I don't quite understand. Can you rephrase that?", "Could you please provide more information?", "I'm not sure what you mean. Can you explain further?"],
+	"context": [""]
+    },
+    {
+	"tag": "thanks",
+	"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+	"responses": ["You're very welcome!", "Glad I could assist you.", "It's my pleasure to help."],
+	"context": [""]
+    },
+    {
+	"tag":"age",
+	"patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+	"responses":["I'm just a machine learning model, so I don't have an age!", "I don't age, but my creators are always working to improve my capabilities.", "I don't have an age, but I'm always here to assist you."],
+	"context": [""]
+    },
+    {
+    "tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I'm here to help you take care of your health.", "I can provide advice and support for your healthcare needs."],
+    "context": [""]
+    },
+    {
+    "tag": "name",
+    "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+    "responses": ["You can call me CareBot! I'm your medical assistant.", "I'm CareBot, your personal healthcare assistant."],
+    "context": [""]
+    },
+    {
+    "tag": "common cold symptoms",
+    "patterns": ["Runny or stuffy nose","Sore throat","Cough", "Congestion","Slight body aches or a mild headache","Sneezing","Low-grade fever","Generally feeling unwell (malaise)"],
+    "responses": ["It sounds like you may have the common cold. Be sure to get plenty of rest and drink lots of fluids to help your body recover."],
+    "context": [""]
+    },
+    {
+    "tag": "hypertensive disease",
+    "patterns": ["pain chest","shortness of breath","dizziness","asthenia","fall","syncope","vertigo","sweat","sweating increased","palpitation","nausea","angina pectoris","pressure chest"], 
+    "responses": ["We're here to support you. It's possible that you may be experiencing hypertensive disease. Please seek medical attention as soon as possible."],
+    "context": [""]
+    },
+    {
+	"tag":"fever symptoms",
+	"patterns":["Sweating","Chills and shivering","Headache","Muscle aches","Loss of appetite","Irritability","Dehydration","General weakness"],
+	"responses":["It seems that you are suffering from fever. The symptoms you are experiencing, such as sweating, chills and shivering, headache, muscle aches, loss of appetite, irritability, dehydration, and general weakness, are all common indicators of fever. It is important to stay hydrated and rest as much as possible to help your body recover."],
+	"context": [""]
+    },
+    {
+	"tag":"Diabetes symptoms",
+	"patterns":["increased hunger","increased thirst","weight loss","frequent urination","blurry vision","extreme fatigue"],
+	"responses":["It seems that you are suffering from Diabetes. The symptoms you are experiencing, such as increased hunger, increased thirst, weight loss, frequent urination, blurry vision, and extreme fatigue, are all common indicators of diabetes. It is important to see a doctor for proper diagnosis and treatment to manage your condition."],
+	"context": [""]
+    },
+    {
+    "tag": "migraine",
+    "patterns": ["I have a headache", "My head hurts", "What can I do for a migraine?", "How can I prevent migraines?"],
+    "responses": ["I'm sorry to hear that. Migraines can be really tough. Try drinking some water, taking a nap, or using a cold compress on your forehead to help ease the pain. You can also try over the-counter pain relievers like ibuprofen or acetaminophen. To prevent migraines, try keeping a headache diary to identify potential triggers, such as stress, lack of sleep, or certain foods, and avoid them if possible. Regular exercise, getting enough sleep, and practicing relaxation techniques can also help prevent migraines.", "Did you know that some common migraine triggers include stress, changes in sleep patterns, certain foods and drinks, and hormonal changes? If you're experiencing migraines frequently, it may be worth keeping a headache diary to help identify potential triggers. Additionally, there are prescription medications that can help prevent migraines. Talk to your healthcare provider about your options."],
+    "context": [""]
+    },
+    {
+    "tag": "depression",
+    "patterns": ["I'm feeling sad", "I'm not enjoying things anymore", "How can I manage my depression?", "What are some treatments for depression?"],
+    "responses": ["I'm sorry to hear that. It's important to remember that depression is a medical condition and it's not your fault. There are many treatment options available, including therapy and medication. Additionally, there are many things you can do to take care of yourself, such as exercising regularly, eating a balanced diet, and getting enough sleep. It's also important to reach out to friends and family for support.", "There are many treatments available for depression, including therapy, medication, and lifestyle modifications. If you're experiencing symptoms of depression, it's important to seek help right away. Your healthcare provider can help you develop a personalized treatment plan that's right for you."],
+    "context": [""]
+    },
+    {
+    "tag": "asthma",
+    "patterns": ["I'm having trouble breathing", "I have a cough", "How can I manage my asthma?", "What are some triggers for asthma?"],
+    "responses": ["I'm sorry to hear that. If you're experiencing difficulty breathing, it's important to seek medical attention right away. In the meantime, try to stay calm and take slow, deep breaths. Avoid any known triggers, such as cigarette smoke or pollen. If you have a rescue inhaler, use it as directed. To manage asthma, it's important to work with your healthcare provider to develop a personalized treatment plan. This may include medications to control inflammation, as well as lifestyle modifications such as avoiding triggers and exercising regularly.", "Some common triggers for asthma include exercise, allergies, pollution, and respiratory infections. If you have asthma, it's important to work with your healthcare provider to develop a personalized management plan. This may include medications to control inflammation, as well as lifestyle modifications such as avoiding triggers and staying active."],
+    "context": [""]
+    },
+    {
+	"tag":"common cold prevention",
+	"patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+	"responses":["There are several over-the-counter medicines you can buy to help manage your common cold symptoms, such as Dextromethorphan, Decongestant, Diphenhydramine, and Crocin Cold & Flu Max. In terms of prevention, it is important to wash your hands frequently, avoid touching your face, clean frequently used surfaces, and use hand sanitizers. Foods that are high in garlic, Vitamin C, leafy greens, broccoli, oatmeal, spices, and chicken soup can also help boost your immune system and alleviate symptoms."],
+	"context": [""]
+    },
+    {
+    "tag":"anemia",
+    "patterns":["chill","guaiac positive","monoclonal","ecchymosis", "tumor cell invasion","haemorrhage","pallor","asthenia","fatigue","heme positive","pain back", "orthostasis","hyponatremia","dizziness","shortness of breath","pain","rhonchus", "arthralgia","swelling","transaminitis"],
+    "responses":[
+        	"It seems like you may be experiencing symptoms of anemia. Anemia is a condition where you have a low red blood cell count, which can cause fatigue, weakness, and shortness of breath. It's important to see a healthcare provider to get a proper diagnosis and treatment plan.",
+        	"If you're experiencing symptoms of anemia, there are several tests that can help diagnose the condition, including a complete blood count (CBC) test and tests for iron, vitamin B12, and folic acid levels. Treatment for anemia depends on the underlying cause and may include iron supplements, vitamin B12 injections, and other medications.",
+        	"If you're feeling tired or weak and think you may have anemia, it's important to see a healthcare provider as soon as possible. Anemia can be caused by a number of factors, including a lack of iron, vitamin B12, or folic acid, and can lead to serious health problems if left untreated."
+    	],
+    "context": [""]
+    },
+
+    {
+    "tag":"fever prevention",
+    "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+    "responses":[
+         	"If you have a fever, it's important to stay hydrated and get plenty of rest. You can also take over-the-counter medications like acetaminophen or ibuprofen to help reduce your fever and relieve any aches and pains. If your fever persists for more than a few days or is accompanied by other symptoms like a rash or difficulty breathing, it's important to see a healthcare provider.",
+        	"To prevent fever, it's important to practice good hygiene by washing your hands regularly and avoiding contact with people who are sick. You can also boost your immune system by eating a healthy diet that includes plenty of fruits and vegetables, getting regular exercise, and getting enough sleep.",
+        	"If you're experiencing a fever, it's important to stay hydrated and get plenty of rest. You can also take over-the-counter medications like acetaminophen or ibuprofen to help reduce your fever and relieve any discomfort. If your fever persists or is accompanied by other symptoms, it's important to see a healthcare provider to determine the underlying cause."
+    	],
+    "context": [""]
+    },
+    {
+    "tag":"diabetes prevention",
+    "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+    "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"],
+    "context": [""]
+    },
+    {
+    "tag":"depression prevention",
+    "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+    "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"],
+    "context": [""]
+    },
+    {
+    "tag":"asthma prevention",
+    "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+    "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"],
+    "context": [""]
+    },
+    {
+    "tag": "symptom_checker",
+    "patterns": ["I'm not feeling well", "What could be wrong with me?", "What are my symptoms?", "Can you help diagnose me?", "What's causing my symptoms?"],
+    "responses": ["I can help you with that. Please tell me your symptoms and I'll try to diagnose you."],
+    "context": [""]
+    },
+    {
+    "tag": "symptoms_common_cold",
+    "patterns": ["I have a runny nose", "My throat is sore", "I'm coughing", "I have a headache", "I feel congested", "I have a fever", "I'm sneezing", "I feel tired", "I have body aches"],
+    "responses": ["It sounds like you may have a common cold. You should rest and drink plenty of fluids. Over-the-counter medications may help with your symptoms."],
+    "context": ["symptom_checker"] 
+    },
+    {
+    "tag": "symptoms_flu",
+    "patterns": ["I have a fever", "I'm coughing", "My throat is sore", "I have a runny or stuffy nose", "I feel tired", "I have body aches", "I'm vomiting", "I have diarrhea"],
+    "responses": ["It sounds like you may have the flu. You should rest and drink plenty of fluids. Over-the-counter medications may help with your symptoms. If your symptoms worsen, you should see a doctor."],
+    "context": ["symptom_checker"]
+    },
+    {
+    "tag": "symptoms_allergies",
+    "patterns": ["My eyes are itchy", "My nose is stuffy", "I'm sneezing", "My throat is itchy", "I have a rash", "I'm coughing"],
+    "responses": ["It sounds like you may have allergies. You can try over-the-counter antihistamines to relieve your symptoms. If your symptoms persist, you should see a doctor."],
+    "context": ["symptom_checker"]
+    },
+    {
+    "tag": "symptoms_migraine",
+    "patterns": ["I have a headache", "The pain is on one side of my head", "I'm sensitive to light", "I'm sensitive to sound", "I feel nauseous", "I have blurred vision"],
+    "responses": ["It sounds like you may have a migraine. You can try over-the-counter pain relievers or prescription medications to relieve your symptoms. If your symptoms persist, you should see a doctor."],
+    "context": ["symptom_checker"]
+    },
+    {
+    "tag": "symptoms_anxiety",
+    "patterns": ["I feel nervous", "I'm worried about things", "I'm irritable", "I have trouble sleeping", "I'm sweating", "I have a rapid heartbeat"],
+    "responses": ["It sounds like you may have anxiety. You can try relaxation techniques, such as deep breathing or meditation, to help calm yourself. If your symptoms persist, you should see a doctor."],
+    "context": ["symptom_checker"]
+    },
+    {
+    "tag": "medication_side_effects",
+    "patterns": ["I'm experiencing side effects from my medication", "My medication is making me feel sick", "I'm having an allergic reaction to my medication"],
+    "responses": ["You should stop taking the medication and contact your doctor immediately. They will be able to advise you on what to do next."],
+    "context": [""]
+    },
+    {
+    "tag": "emergency",
+    "patterns": ["I need emergency help", "This is an emergency", "Emergency"],
+    "responses": ["I'm very sorry to hear that you're in an emergency situation. Please call your local emergency services immediately for assistance.", "This sounds like an emergency. Please dial the emergency services number in your area right away."],
+    "context": [""]
+    },
+    {
+    "tag": "pain",
+    "patterns": ["I'm in pain", "I have pain", "Pain"],
+    "responses": ["I'm sorry to hear that you're in pain. Please specify the location and type of pain you're experiencing so I can better assist you.", "Pain can be challenging. Could you provide more details about the pain you're feeling and any associated symptoms?"],
+    "context": ["diagnosis"]
+    },
+    {
+    "tag": "headache",
+    "patterns": ["I have a headache", "My head hurts", "Headache"],
+    "responses": ["Headaches can be caused by various factors. Can you describe the nature of your headache and any other symptoms you're experiencing?", "I'm sorry to hear about your headache. Please tell me more about it, such as its location and intensity."],
+    "context": ["diagnosis"]
+    },
+    {
+    "tag": "cough",
+    "patterns": ["I have a persistent cough", "I'm coughing a lot", "Cough"],
+    "responses": ["Coughing can be caused by different issues. Can you tell me more about the type of cough and any other symptoms you have?", "I understand. Coughing can have various causes. Please provide more information about your cough."],
+    "context": ["diagnosis"]
+    },
+    {
+    "tag": "diagnosis",
+    "patterns": ["I'm not feeling well", "I'm feeling sick", "What's wrong with me?", "I have symptoms"],
+    "responses": ["I can help you with that. Please describe your symptoms, and I'll try to provide a diagnosis.", "I'm here to assist with your symptoms. Please tell me what you're experiencing."],
+    "context": [""]
+    },
+    {
+    "tag": "noanswer",
+    "patterns": [],
+    "responses": ["I'm sorry, I don't have enough information to provide a diagnosis. Please consult with a healthcare professional for proper evaluation.", "I'm not sure. It's important to consult with a medical expert for a thorough evaluation."],
+    "context": ["diagnosis"]
+    },
+    {
+    "tag": "company_info",
+    "patterns": ["Tell me about ENOVA R&T", "What is ENOVA R&T?", "About ENOVA R&T"],
+    "responses": ["ENOVA R&T is the leading provider of healthcare information systems (HIS) solutions in Morocco. With nearly 20 years of experience, the company serves as a trusted partner to healthcare institutions, offering a wide range of services to optimize their management operations and enhance patient outcomes.",
+                      "With ENOVA R&T's solutions, healthcare institutions can streamline their processes and focus on delivering high-quality care to their patients. ENOVA R&T provides a highly customizable Hospital Information System (HIS) known as ENOVA Santé, which seamlessly integrates with existing hospital infrastructures and offers various adaptive modules, including electronic medical record systems, telemedicine platforms, clinical decision support systems, and more. ENOVA Santé provides flexible and efficient patient care from admission to discharge."],
+    "context": [""]
+    },
+    {
+    "tag": "mission_vision",
+    "patterns": ["What is ENOVA R&T's mission?", "Tell me about ENOVA R&T's vision", "What are ENOVA R&T's current projects?"],
+    "responses": ["ENOVA R&T's mission is to support healthcare professionals in their daily work by providing advanced technological solutions to deliver the highest quality care to their patients. By helping healthcare institutions optimize their management processes, ENOVA R&T enables healthcare professionals to focus more on what matters most: improving people's lives.",
+                      "Currently, the Hospital Information System ENOVA Santé is deployed in five regions of Morocco, including Tanger Tétouan Al Hoceima, Béni Mellal Khénifra, Souss Massa, Laâyoune Sakia El Hamra, and Dakhla Oued Ed-Dahab. Over 1000 healthcare institutions, including university hospitals, regional hospitals, and oncology centers, rely on ENOVA Santé daily. The company is committed to providing continuous support and assistance to optimize the use of its solutions.",
+                      "The data team at ENOVA R&T plays a central role in the company's digital transformation. Comprising data analysis enthusiasts, this team is responsible for implementing Data Science and Business Intelligence solutions to improve the company's internal processes and support partner healthcare institutions."],
+    "context": [""]
+    },
+    {
+    "tag": "company_details",
+    "patterns": ["Tell me more about ENOVA R&T", "What are ENOVA R&T's services?", "Where is ENOVA R&T located?", "What is ENOVA R&T's website?"],
+    "responses": ["Here are some key details about ENOVA R&T:",
+                      "- Name: ENOVA Research & Technology",
+                      "- Industry: Consultancy and Strategy, Software Solutions Development, Research and Development",
+                      "- Year of Establishment: 2006",
+                      "- Headquarters: Angle Rue Ait Malek and Rocade de Rabat, ZENITH - Bâtiment D, RDJ, Rabat 10220, Morocco",
+                      "- Services: Digital Transformation, Support and Training, Data Management",
+                      "- Website: [www.enova.ma](https://www.enova.ma)",
+                      "- Social Media:",
+                      "  - LinkedIn: [ENova R&T LinkedIn](https://www.linkedin.com/company/enova-rt)",
+                      "  - Twitter: [ENova R&T Twitter](https://twitter.com/enova_t)",
+                      "  - Instagram: [ENova R&T Instagram](https://www.instagram.com/enova_rt/)",
+                      "  - Facebook: [ENova R&T Facebook](https://www.facebook.com/enova.ma/)"],
+    "context": [""]
+    },
+    {
+        "tag": "humor",
+        "patterns": ["Make me laugh", "Tell a joke", "A joke please"],
+        "responses": ["Why do divers always dive backwards and never forwards? Because otherwise they'd fall into the boat."],
+        "context": [""]
+    },
+    {
+        "tag": "faq_schedule",
+        "patterns": ["What are your opening hours?", "What time do you open?", "When can I visit you?"],
+        "responses": ["Our opening hours are from Monday to Friday, from 9:00 AM to 5:00 PM.", "We are open from Monday to Friday, from 9:00 AM to 5:00 PM."],
+        "context": [""]
+    },
+    {
+        "tag": "technical_support",
+        "patterns": ["I have technical issues", "I can't log in", "Help me with a bug"],
+        "responses": ["I'm sorry to hear that. Can you describe your technical issue in more detail?", "I'll try to resolve this technical issue for you. Can you provide more information?"],
+        "context": [""]
+    },
+    {
+        "tag": "suggestions",
+        "patterns": ["I have a suggestion", "You should add this feature", "Have you thought about this?"],
+        "responses": ["We appreciate your suggestions! Can you tell us more about what you have in mind?", "We're always open to suggestions. Feel free to share your ideas."],
+        "context": [""]
+    },
+    {
+        "tag": "feedback",
+        "patterns": ["Give me your feedback", "Can you rate this service?", "Do you have any comments?"],
+        "responses": ["We appreciate your feedback! On a scale of 1 to 5, how would you rate our service?", "We're always happy to receive feedback. How satisfied are you with our service?"],
+        "context": [""]
+    },
+    {
+        "tag": "positive_feedback",
+        "patterns": ["You're doing a great job", "I like this service", "Excellent work"],
+        "responses": ["Thank you very much for your positive feedback! We appreciate your support.", "We're delighted to hear that! Your satisfaction is our priority."],
+        "context": [""]
+    },
+    {
+        "tag": "personal_information",
+        "patterns": ["What's your name?", "Where are you based?", "Who are you?"],
+        "responses": ["I am ENOVA BOT, a chatbot designed to assist you. I don't have a proper name.", "I am cloud-based, and I'm here to answer your questions."],
+        "context": [""]
+    },
+    {
+        "tag": "help",
+        "patterns": ["I need help", "Can you help me?", "Please help me"],
+        "responses": ["Of course! I'm here to help you. What is your question?", "I would be happy to help. What do you need?"],
+        "context": [""]
+    },
+    {
+        "tag": "emotions",
+        "patterns": ["brilliant", "superb", "I am comfortable"],
+        "responses": ["I'm glad to hear that you're comfortable.", "That's great!"],
+        "context": [""]
+    },
+    {
+    "tag": "cancer",
+    "patterns": ["Can you diagnose cancer?", "Tell me about my cancer diagnosis", "I need a cancer diagnosis"],
+    "responses": ["I can help with cancer diagnosis. Please provide me with: region, age, sex, pregnancies, menopause, births (for females), family cancer history (yes/no), penicillin, tobacco, alcohol"],
+    "context": [""]
+    
+    }
+    
+]}
+         

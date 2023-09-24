@@ -1,0 +1,5 @@
+# Ignore les fichiers .ipynb_checkpoints partout
+.ipynb_checkpoints/
+
+# Ignore les fichiers .ipynb_checkpoints spécifiques à Streamlit_Application
+Streamlit_Application/.ipynb_checkpoints/

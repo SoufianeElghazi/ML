@@ -1,0 +1,349 @@
+{"intents": 
+[
+        {
+            "tag": "salutations",
+            "patterns": ["bonjour", "salut ENOVA", "salut", "comment ça va ?", "comment vas-tu ?", "ça va ?"],
+            "responses": ["Bonjour ! C'est génial d'avoir de vos nouvelles.", "Salut ! Comment puis-je vous aider aujourd'hui ?", "Hey ! Comment se passe votre journée ?"],
+            "contexte": [""]
+        },
+        {
+            "tag": "informations_personnelles",
+            "patterns": ["Quel est ton nom ?", "Où es-tu basé ?", "Qui es-tu ?"],
+            "responses": ["Je suis ENOVA BOT, un chatbot conçu pour vous aider. Je n'ai pas de nom propre.", "Je suis basé dans le cloud et je suis ici pour répondre à vos questions."],
+            "contexte": [""]
+        },
+        {
+            "tag": "aide",
+            "patterns": ["J'ai besoin d'aide", "Pouvez-vous m'aider ?", "Aidez-moi s'il vous plaît"],
+            "responses": ["Bien sûr ! Je suis là pour vous aider. Quelle est votre question ?", "Je serais ravi de vous aider. De quoi avez-vous besoin ?"],
+            "contexte": [""]
+        },
+        {
+            "tag": "partage_emotion",
+            "patterns": ["brilliant", "superb", "je suis à l'aise"],
+            "responses": ["Je suis heureux de savoir que tu es à l'aise.", "C'est génial !"],
+            "contexte": [""]
+        },
+        {
+            "tag": "au_revoir",
+            "patterns": ["au revoir", "à plus tard", "à bientôt", "passe une bonne journée", "bye", "ciao", "à la prochaine"],
+            "responses": ["Prenez soin de vous et passez une excellente journée !", "Au revoir ! N'hésitez pas à nous contacter si vous avez besoin de quelque chose.", "À bientôt !"],
+            "contexte": [""]
+        },
+        {
+            "tag": "pas_de_reponse",
+            "patterns": [" ","  "],
+            "responses": ["Je suis désolé, je ne comprends pas tout à fait. Pouvez-vous reformuler ?", "Pourriez-vous fournir plus d'informations, s'il vous plaît ?", "Je ne suis pas sûr de comprendre ce que vous voulez dire. Pouvez-vous expliquer davantage ?"],
+            "contexte": [""]
+        },
+        {
+            "tag": "merci",
+            "patterns": ["merci", "merci beaucoup", "c'est utile", "super, merci", "merci de m'avoir aidé"],
+            "responses": ["De rien !", "Je suis content d'avoir pu vous aider.", "C'est un plaisir de vous aider."],
+            "contexte": [""]
+        },
+        {
+            "tag": "âge",
+            "patterns": ["quel âge as-tu ?", "quel est ton âge ?", "quelle est ton ancienneté ?", "quel âge as-tu ?", "âge ?"],
+            "responses": ["Je ne suis qu'un modèle d'apprentissage automatique, je n'ai pas d'âge !", "Je ne vieillis pas, mais mes créateurs travaillent toujours à améliorer mes capacités.", "Je n'ai pas d'âge, mais je suis toujours là pour vous aider."],
+            "contexte": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["Comment peux-tu m'aider ?", "Qu'est-ce que tu peux faire ?", "Quelle aide proposes-tu ?", "Comment peux-tu être utile ?", "Quel soutien est offert ?"],
+            "responses": ["Je suis là pour vous aider à prendre soin de votre santé.", "Je peux fournir des conseils et du soutien pour vos besoins en matière de santé."],
+            "contexte": [""]
+        },
+        {
+            "tag": "nom",
+            "patterns": ["quel est ton nom ?", "comment dois-je t'appeler ?", "quel est ton nom ?", "qui es-tu ?", "peux-tu me dire ton nom ?"],
+            "responses": ["Vous pouvez m'appeler ENOVA ! Je suis votre assistant médical.", "Je suis ENOVA, votre assistant personnel en santé."],
+            "contexte": [""]
+        },
+        {
+            "tag": "humour",
+            "patterns": ["Fais-moi rire", "Raconte une blague", "Une blague s'il te plaît"],
+            "responses": ["Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau."],
+            "contexte": [""]
+        },
+        {
+            "tag": "faq_horaire",
+            "patterns": ["Quels sont vos horaires d'ouverture ?", "À quelle heure ouvrez-vous ?", "Quand puis-je vous rendre visite ?"],
+            "responses": ["Nos horaires d'ouverture sont du lundi au vendredi de 9h00 à 17h00.", "Nous sommes ouverts du lundi au vendredi de 9h00 à 17h00."],
+            "contexte": [""]
+        },
+        {
+            "tag": "support_technique",
+            "patterns": ["J'ai des problèmes techniques", "Je ne peux pas me connecter", "Aidez-moi avec un bug"],
+            "responses": ["Je suis désolé d'entendre cela. Pouvez-vous décrire plus en détail votre problème technique ?", "Je vais essayer de résoudre ce problème technique pour vous. Pouvez-vous me fournir plus d'informations ?"],
+            "contexte": [""]
+        },
+        {
+            "tag": "suggestions",
+            "patterns": ["J'ai une suggestion", "Vous devriez ajouter cette fonctionnalité", "Avez-vous pensé à cela ?"],
+            "responses": ["Nous apprécions vos suggestions ! Pouvez-vous nous en dire plus sur ce que vous avez en tête ?", "Nous sommes toujours ouverts aux suggestions. N'hésitez pas à partager vos idées."],
+            "contexte": [""]
+        },
+        {
+            "tag": "avis",
+            "patterns": ["Donnez-moi votre avis", "Pouvez-vous noter ce service ?", "Avez-vous des commentaires ?"],
+            "responses": ["Nous apprécions vos commentaires ! Sur une échelle de 1 à 5, comment évalueriez-vous notre service ?", "Nous sommes toujours heureux de recevoir des commentaires. À quel point êtes-vous satisfait de notre service ?"],
+            "contexte": [""]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["Vous faites du bon travail", "J'aime ce service", "Excellent travail"],
+            "responses": ["Merci beaucoup pour votre retour positif ! Nous apprécions votre soutien.", "Nous sommes ravis d'entendre cela ! Votre satisfaction est notre priorité."],
+            "contexte": [""]
+        },
+        {
+            "tag": "symptomes_rhume_communs",
+            "patterns": ["nez qui coule ou congestionné", "mal de gorge", "toux", "congestion", "légères douleurs corporelles ou légère céphalée", "éternuements", "fièvre légère", "sensation générale de malaise"],
+            "responses": ["On dirait que vous pourriez avoir un rhume commun. Assurez-vous de vous reposer suffisamment et de boire beaucoup de liquides pour aider votre corps à récupérer."],
+            "contexte": [""]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": ["douleur à la poitrine", "essoufflement", "étourdissements", "asthénie", "chute", "syncope", "vertiges", "transpiration", "sudation excessive", "palpitations", "nausées", "angine de poitrine", "pression à la poitrine"],
+            "responses": ["Nous sommes là pour vous soutenir. Il est possible que vous souffriez d'une maladie hypertensive. Veuillez consulter un médecin dès que possible."],
+            "contexte": [""]
+        },
+        {
+            "tag": "symptomes_fievre",
+            "patterns": ["transpiration", "frissons et tremblements", "mal de tête", "douleurs musculaires", "perte d'appétit", "irritabilité", "déshydratation", "faiblesse générale"],
+            "responses": ["Il semble que vous souffriez de fièvre. Les symptômes que vous ressentez, tels que la transpiration, les frissons et tremblements, le mal de tête, les douleurs musculaires, la perte d'appétit, l'irritabilité, la déshydratation et la faiblesse générale, sont tous des indicateurs courants de la fièvre. Il est important de rester hydraté et de se reposer autant que possible pour aider votre corps à récupérer."],
+            "contexte": [""]
+        },
+        {
+            "tag": "symptomes_diabete",
+            "patterns": ["faim accrue", "soif accrue", "perte de poids", "mictions fréquentes", "vision floue", "fatigue extrême"],
+            "responses": ["Il semble que vous souffriez de diabète. Les symptômes que vous ressentez, tels qu'une faim accrue, une soif accrue, une perte de poids, des mictions fréquentes, une vision floue et une fatigue extrême, sont tous des indicateurs courants du diabète. Il est important de consulter un médecin pour un diagnostic et un traitement appropriés afin de gérer votre état."],
+            "contexte": [""]
+        },
+        {
+            "tag": "migraine",
+            "patterns": ["J'ai mal à la tête", "Ma tête me fait mal", "Que puis-je faire pour une migraine ?", "Comment puis-je prévenir les migraines ?"],
+            "responses": ["Je suis désolé d'apprendre ça. Les migraines peuvent être vraiment difficiles. Essayez de boire de l'eau, de faire une sieste ou d'appliquer un compresses froides sur votre front pour soulager la douleur. Vous pouvez également essayer des analgésiques en vente libre comme l'ibuprofène ou l'acétaminophène. Pour prévenir les migraines, essayez de tenir un journal de maux de tête pour identifier les déclencheurs potentiels, tels que le stress, le manque de sommeil ou certains aliments, et évitez-les si possible. L'exercice régulier, le fait de bien dormir et la pratique de techniques de relaxation peuvent également aider à prévenir les migraines.", "Savez-vous que certains déclencheurs courants de la migraine incluent le stress, les changements de rythme de sommeil, certains aliments et boissons, ainsi que les changements hormonaux ? Si vous souffrez fréquemment de migraines, il peut être utile de tenir un journal de maux de tête pour identifier les déclencheurs potentiels. De plus, il existe des médicaments sur ordonnance qui peuvent aider à prévenir les migraines. Parlez à votre professionnel de la santé de vos options."],
+            "contexte": [""]
+        },
+        {
+            "tag": "dépression",
+            "patterns": ["Je me sens triste", "Je n'apprécie plus les choses", "Comment puis-je gérer ma dépression ?", "Quels sont les traitements de la dépression ?"],
+            "responses": ["Je suis désolé d'apprendre ça. Il est important de se rappeler que la dépression est une affection médicale et ce n'est pas de votre faute. Il existe de nombreuses options de traitement disponibles, notamment la thérapie et les médicaments. De plus, il y a de nombreuses choses que vous pouvez faire pour prendre soin de vous, comme faire de l'exercice régulièrement, manger équilibré et dormir suffisamment. Il est également important de demander du soutien à vos amis et à votre famille.", "Il existe de nombreux traitements disponibles pour la dépression, notamment la thérapie, les médicaments et les modifications du mode de vie. Si vous présentez des symptômes de dépression, il est important de demander de l'aide dès que possible. Votre professionnel de la santé peut vous aider à élaborer un plan de traitement personnalisé qui vous convient."],
+            "contexte": [""]
+        },
+        {
+            "tag": "asthme",
+            "patterns": ["J'ai du mal à respirer", "J'ai une toux", "Comment puis-je gérer mon asthme ?", "Quels sont les déclencheurs de l'asthme ?"],
+            "responses": ["Je suis désolé d'apprendre ça. Si vous avez des difficultés à respirer, il est important de consulter immédiatement un médecin. En attendant, essayez de rester calme et de respirer lentement et profondément. Évitez tout déclencheur connu, comme la fumée de cigarette ou le pollen. Si vous avez un inhalateur de secours, utilisez-le comme indiqué. Pour gérer l'asthme, il est important de travailler avec votre professionnel de la santé pour élaborer un plan de traitement personnalisé. Cela peut inclure des médicaments pour contrôler l'inflammation, ainsi que des modifications du mode de vie, telles que l'évitement des déclencheurs et l'exercice régulier.", "Certains déclencheurs courants de l'asthme comprennent l'exercice, les allergies, la pollution et les infections respiratoires. Si vous souffrez d'asthme, il est important de travailler avec votre professionnel de la santé pour élaborer un plan de gestion personnalisé. Cela peut inclure des médicaments pour contrôler l'inflammation, ainsi que des modifications du mode de vie, telles que l'évitement des déclencheurs et le maintien d'une activité physique."],
+            "contexte": [""]
+        },
+        {
+            "tag": "prévention_du_rhume_communicatif",
+            "patterns": ["Quels médicaments puis-je acheter pour m'aider en cas de rhume commun ?", "Dites-moi quelques méthodes de prévention du rhume commun", "Que devrais-je manger ou boire si je souffre d'un rhume commun ?", "Comment puis-je éviter de contracter un rhume ou la grippe ?"],
+            "responses": ["Il existe plusieurs médicaments en vente libre que vous pouvez acheter pour vous aider à gérer les symptômes de votre rhume commun, tels que le dextrométhorphane, le décongestionnant, la diphenhydramine et le Crocin Cold & Flu Max. En ce qui concerne la prévention, il est important de se laver les mains fréquemment, d'éviter de toucher votre visage, de nettoyer les surfaces fréquemment utilisées et d'utiliser des désinfectants pour les mains. Les aliments riches en ail, en vitamine C, en légumes à feuilles, en brocoli, en avoine, en épices et en soupe au poulet peuvent également aider à renforcer votre système immunitaire et à soulager les symptômes."],
+            "contexte": [""]
+        },
+        {
+            "tag": "anémie",
+            "patterns": ["frisson", "positif au guaiac", "monoclonal", "ecchymose", "invasion de cellules tumorales", "saignement", "pâleur", "asthénie", "fatigue", "hématurie positive", "douleur dorsale", "orthostase", "hyponatrémie", "vertige", "essoufflement", "douleur", "ronchus", "arthralgie", "gonflement", "transaminase élevée"],
+            "responses": ["Il semble que vous présentiez des symptômes d'anémie. L'anémie est une affection caractérisée par un faible nombre de globules rouges, ce qui peut entraîner de la fatigue, de la faiblesse et de l'essoufflement. Il est important de consulter un professionnel de la santé pour obtenir un diagnostic précis et un plan de traitement."],
+            "contexte": [""]
+        },
+        {
+            "tag": "prévention_de_la_fièvre",
+            "patterns": ["Quels médicaments puis-je acheter pour m'aider en cas de fièvre ?", "Dites-moi quelques méthodes de prévention de la fièvre", "Que devrais-je manger ou boire si je souffre de fièvre ?", "Comment puis-je éviter d'avoir de la fièvre ?"],
+            "responses": ["Si vous avez de la fièvre, il est important de rester hydraté et de vous reposer suffisamment. Vous pouvez également prendre des médicaments en vente libre tels que l'acétaminophène ou l'ibuprofène pour réduire votre fièvre et soulager les douleurs éventuelles. Si votre fièvre persiste pendant plus de quelques jours ou s'accompagne d'autres symptômes tels qu'une éruption cutanée ou des difficultés respiratoires, il est important de consulter un professionnel de la santé."],
+            "contexte": [""]
+        },
+        {
+            "tag": "prévention_du_diabète",
+            "patterns": ["Quels médicaments puis-je acheter pour m'aider en cas de diabète ?", "Dites-moi quelques méthodes de prévention du diabète", "Que devrais-je manger ou boire si je souffre de diabète ?", "Comment puis-je éviter de contracter le diabète ?"],
+            "responses": ["médicaments que vous pouvez consommer : Insuline, médicament amylinomimétique, inhibiteur de la dipeptidyl peptidase-4 (DPP-4), prévention que vous devez suivre : Éliminez le sucre et les glucides raffinés de votre alimentation, faites régulièrement de l'exercice, buvez de l'eau comme boisson principale, perdez du poids si vous êtes en surpoids ou obèse, arrêtez de fumer, suivez un régime très pauvre en glucides, surveillez les portions. ALIMENTS SUGGÉRÉS : Légumes à feuilles, avocats, œufs"],
+            "contexte": [""]
+        },
+        {
+            "tag": "prévention_de_la_dépression",
+            "patterns": ["Quels médicaments puis-je acheter pour m'aider en cas de dépression ?", "Dites-moi quelques méthodes de prévention de la dépression", "Que devrais-je manger ou boire si je souffre de dépression ?", "Comment puis-je éviter d'avoir de la dépression ?"],
+            "responses": ["médicaments que vous pouvez consommer : brexpiprazole, quétiapine, olanzapine, prévention que vous devez suivre : Faites régulièrement de l'exercice, réduisez votre temps sur les médias sociaux, buvez de l'eau comme boisson principale, entretenez des relations solides, réduisez vos choix quotidiens, suivez un régime très pauvre en glucides, obtenez suffisamment de vitamine D, incluez des acides gras oméga-3, haricots et légumineuses."],
+            "contexte": [""]
+        },
+        {
+            "tag": "prévention_de_l'asthme",
+            "patterns": ["Quels médicaments puis-je acheter pour m'aider en cas d'asthme ?", "Dites-moi quelques méthodes de prévention de l'asthme", "Que devrais-je manger ou boire si je souffre d'asthme ?", "Comment puis-je éviter d'avoir de l'asthme ?"],
+            "responses": ["Si vous souffrez d'asthme, vous devez suivre un plan de gestion de l'asthme élaboré avec votre professionnel de la santé. Cela peut inclure des médicaments, tels que des bronchodilatateurs et des corticostéroïdes, pour contrôler les symptômes et prévenir les crises. Il est également important d'éviter les déclencheurs d'asthme connus, tels que la fumée de cigarette, la pollution atmosphérique et les allergènes. Maintenir une activité physique régulière et manger un régime équilibré peut également contribuer à la gestion de l'asthme."],
+            "contexte": [""]
+        },
+        {
+            "tag": "alimentation_saine",
+            "patterns": ["Quels sont les avantages d'une alimentation saine ?", "Quels aliments sont considérés comme sains ?", "Comment puis-je adopter une alimentation plus saine ?", "Donnez-moi des conseils pour manger plus sainement."],
+            "responses": ["Une alimentation saine présente de nombreux avantages pour votre santé, notamment la réduction du risque de maladies chroniques telles que les maladies cardiaques, le diabète et l'obésité. Les aliments sains comprennent des fruits et légumes frais, des céréales complètes, des protéines maigres, des produits laitiers faibles en gras et des graisses saines telles que les avocats et les noix. Pour adopter une alimentation plus saine, essayez de planifier vos repas à l'avance, de limiter la consommation d'aliments transformés et de cuire vos propres repas à la maison. Il est également important de surveiller les portions et de rester hydraté en buvant suffisamment d'eau."],
+            "contexte": [""]
+        },
+        {
+            "tag": "exercice_physique",
+            "patterns": ["Quels sont les avantages de l'exercice physique ?", "Combien d'exercice devrais-je faire chaque jour ?", "Quels types d'exercices sont recommandés ?", "Comment puis-je commencer à faire de l'exercice régulièrement ?"],
+            "responses": ["L'exercice physique présente de nombreux avantages pour la santé, notamment l'amélioration de la condition physique, la gestion du poids, la réduction du risque de maladies chroniques et l'amélioration de la santé mentale. Les directives recommandent au moins 150 minutes d'exercice modéré à vigoureux par semaine, réparties sur plusieurs jours. Cela peut inclure la marche, la course, la natation, le vélo ou tout autre type d'activité physique que vous aimez. Pour commencer à faire de l'exercice régulièrement, fixez-vous des objectifs réalistes, trouvez un partenaire d'entraînement si possible, et commencez lentement pour éviter les blessures. Consultez également votre professionnel de la santé avant de commencer un nouveau programme d'exercice, surtout si vous avez des problèmes de santé préexistants."],
+            "contexte": [""]
+        },
+        {
+            "tag": "sommeil_sain",
+            "patterns": ["Pourquoi le sommeil est-il important ?", "Combien d'heures de sommeil devrais-je avoir chaque nuit ?", "Comment puis-je améliorer la qualité de mon sommeil ?", "Donnez-moi des conseils pour un sommeil sain."],
+            "responses": ["Le sommeil est essentiel à votre santé physique et mentale. Il permet à votre corps de se réparer et de se régénérer. La plupart des adultes ont besoin de 7 à 9 heures de sommeil par nuit pour fonctionner au mieux. Pour améliorer la qualité de votre sommeil, essayez de maintenir une routine de sommeil régulière, évitez les stimulants comme la caféine avant le coucher, créez un environnement de sommeil confortable et sombre, et évitez l'exposition à des écrans lumineux juste avant de dormir. La relaxation et la méditation peuvent également aider à calmer votre esprit avant de vous coucher."],
+            "contexte": [""]
+        },
+        {
+            "tag": "hydration",
+            "patterns": ["Pourquoi est-il important de rester hydraté ?", "Combien d'eau devrais-je boire chaque jour ?", "Quels sont les signes de la déshydratation ?", "Comment puis-je m'assurer de boire suffisamment d'eau ?"],
+            "responses": ["Il est essentiel de rester hydraté car l'eau joue un rôle crucial dans de nombreuses fonctions corporelles, notamment la régulation de la température corporelle, la digestion, l'élimination des déchets et le maintien de la fonction cardiaque et cérébrale. Les besoins en eau varient d'une personne à l'autre, mais une règle générale est de boire au moins 8 verres d'eau par jour. Les signes de déshydratation peuvent inclure la soif, la bouche sèche, la peau sèche, la somnolence et l'urine foncée. Pour vous assurer de boire suffisamment d'eau, portez une bouteille d'eau avec vous tout au long de la journée et buvez régulièrement, même si vous n'avez pas soif."],
+            "contexte": [""]
+        },
+        {
+            "tag": "addiction_tabac",
+            "patterns": ["Comment puis-je arrêter de fumer ?", "Quels sont les dangers du tabagisme ?", "Donnez-moi des conseils pour arrêter de fumer.", "Quelles méthodes d'arrêt du tabac sont les plus efficaces ?"],
+            "responses": ["Arrêter de fumer est l'une des meilleures choses que vous puissiez faire pour votre santé. Les dangers du tabagisme comprennent un risque accru de cancer, de maladies cardiaques, de problèmes respiratoires et de nombreuses autres affections. Il existe de nombreuses méthodes pour arrêter de fumer, notamment les substituts de nicotine, la thérapie comportementale, les médicaments sur ordonnance et les programmes de soutien. Il est important de trouver la méthode qui vous convient le mieux et de solliciter le soutien de vos amis, de votre famille et de professionnels de la santé pour vous aider dans votre démarche."],
+            "contexte": [""]
+        },
+        {
+            "tag": "alcool",
+            "patterns": ["Combien d'alcool puis-je consommer en toute sécurité ?", "Quels sont les effets nocifs de la consommation excessive d'alcool ?", "Comment puis-je réduire ma consommation d'alcool ?", "Quand la consommation d'alcool devient-elle un problème ?"],
+            "responses": ["La consommation d'alcool en toute sécurité varie d'une personne à l'autre, mais les directives de santé recommandent de limiter la consommation à un maximum de 1 à 2 verres par jour pour les femmes et de 2 à 3 verres par jour pour les hommes. La consommation excessive d'alcool peut avoir de nombreux effets nocifs sur la santé, notamment des dommages au foie, des problèmes cardiovasculaires, des problèmes mentaux et des dépendances. Si vous souhaitez réduire votre consommation d'alcool, envisagez de fixer des limites claires, d'éviter les situations de pression sociale et de solliciter le soutien de vos proches. Si vous pensez avoir un problème d'alcool, il est important de demander de l'aide à un professionnel de la santé."],
+            "contexte": [""]
+        },
+        {
+            "tag": "gestion_du_stress",
+            "patterns": ["Comment puis-je gérer le stress ?", "Quels sont les effets néfastes du stress sur la santé ?", "Donnez-moi des techniques de gestion du stress.", "Quand le stress devient-il problématique ?"],
+            "responses": ["La gestion du stress est essentielle pour maintenir votre bien-être physique et mental. Le stress chronique peut avoir des effets néfastes sur la santé, tels que l'augmentation du risque de maladies cardiaques, de troubles mentaux et de problèmes gastro-intestinaux. Pour gérer le stress, envisagez des techniques de relaxation telles que la méditation, la respiration profonde, le yoga ou l'exercice physique régulier. La gestion du temps, la communication efficace et le soutien social sont également importants. Le stress devient problématique lorsque vous avez du mal à fonctionner au quotidien ou que vos symptômes physiques ou mentaux s'aggravent. Dans ce cas, il est recommandé de consulter un professionnel de la santé pour obtenir de l'aide."],
+            "contexte": [""]
+        },
+        {
+            "tag": "soins_preventifs",
+            "patterns": ["Quels sont les soins préventifs importants pour maintenir ma santé ?", "Quels examens médicaux de routine devrais-je subir ?", "À quelle fréquence devrais-je consulter mon médecin pour des contrôles de santé ?", "Comment puis-je prendre soin de ma santé à long terme ?"],
+            "responses": ["Les soins préventifs sont essentiels pour maintenir votre santé à long terme. Il est important de consulter votre médecin régulièrement pour des examens médicaux de routine, tels que les bilans de santé, les contrôles de la pression artérielle, les examens de dépistage du cancer, les vaccinations et les examens de la vue et de l'ouïe. Vous devriez également discuter de votre santé familiale avec votre médecin pour déterminer si vous avez des facteurs de risque génétiques. En dehors des visites médicales, il est important de maintenir un mode de vie sain en mangeant équilibré, en faisant de l'exercice régulièrement, en dormant suffisamment et en évitant le tabac et l'abus d'alcool."],
+            "contexte": [""]
+        },
+        {
+            "tag": "sexualite_saine",
+            "patterns": ["Quels sont les éléments clés d'une sexualité saine ?", "Comment puis-je maintenir une vie sexuelle saine et épanouissante ?", "Quels sont les risques liés aux relations sexuelles non protégées ?", "Comment puis-je pratiquer des relations sexuelles en toute sécurité ?"],
+            "responses": ["Une sexualité saine implique des relations sexuelles consensuelles, responsables et respectueuses. Il est important de communiquer ouvertement avec votre partenaire, de respecter les limites de l'autre et d'utiliser des contraceptifs si vous ne souhaitez pas concevoir. Pour maintenir une vie sexuelle saine, il est essentiel de prendre des précautions pour prévenir les infections sexuellement transmissibles (IST) en utilisant des préservatifs et en vous faire dépister régulièrement. Également, assurez-vous de consulter un professionnel de la santé pour discuter de la contraception et de la prévention des IST."],
+            "contexte": [""]
+        },
+        {
+            "tag": "santé_mentale",
+            "patterns": ["Comment puis-je prendre soin de ma santé mentale ?", "Quand devrais-je consulter un professionnel de la santé mentale ?", "Quels sont les signes de problèmes de santé mentale ?", "Donnez-moi des conseils pour améliorer ma santé mentale."],
+            "responses": ["La santé mentale est tout aussi importante que la santé physique. Pour prendre soin de votre santé mentale, veillez à gérer le stress, à maintenir des relations sociales positives, à faire de l'exercice régulièrement, à pratiquer la pleine conscience et à rechercher des activités qui vous procurent du plaisir. Si vous présentez des signes de problèmes de santé mentale tels que la dépression, l'anxiété, la colère ou l'isolement, il est important de consulter un professionnel de la santé mentale. N'ayez pas peur de demander de l'aide, car le traitement peut être très efficace pour améliorer votre bien-être mental."],
+            "contexte": [""]
+        },
+        {
+            "tag": "grossesse",
+            "patterns": ["Que dois-je faire pour avoir une grossesse en santé ?", "Quels sont les signes de grossesse ?", "Comment puis-je prendre soin de moi pendant la grossesse ?", "Quels sont les examens médicaux importants pendant la grossesse ?"],
+            "responses": ["Pour avoir une grossesse en santé, il est important de prendre des précautions dès le début de la grossesse, telles que prendre des suppléments de vitamines prénatales, manger équilibré, éviter l'alcool et le tabac, et éviter les médicaments non prescrits. Les signes courants de grossesse incluent l'absence de menstruation, la nausée, la sensibilité des seins et la fatigue. Pendant la grossesse, vous devriez consulter un professionnel de la santé pour des soins prénatals réguliers, y compris des échographies et des tests de dépistage. Il est également important de surveiller votre santé mentale et de rechercher un soutien si nécessaire."],
+            "contexte": [""]
+        },
+        {
+            "tag": "maladies_cardiovasculaires",
+            "patterns": ["Quels sont les facteurs de risque des maladies cardiaques ?", "Comment puis-je prévenir les maladies cardiaques ?", "Quels sont les symptômes courants des maladies cardiaques ?", "Quels sont les traitements disponibles pour les maladies cardiaques ?"],
+            "responses": ["Les facteurs de risque des maladies cardiaques comprennent le tabagisme, une alimentation riche en graisses saturées et en sel, la sédentarité, l'hypertension artérielle, le diabète et l'obésité. Pour prévenir les maladies cardiaques, il est essentiel de maintenir un mode de vie sain en mangeant équilibré, en faisant de l'exercice régulièrement, en évitant le tabac et l'abus d'alcool, et en gérant le stress. Les symptômes courants des maladies cardiaques incluent la douleur thoracique, l'essoufflement, la fatigue et les palpitations. Les traitements peuvent inclure des médicaments, des interventions chirurgicales, des changements de mode de vie et la réadaptation cardiaque."],
+            "contexte": [""]
+        },
+        {
+            "tag": "covid_19",
+            "patterns": ["Quels sont les symptômes de la COVID-19 ?", "Comment puis-je me protéger contre la COVID-19 ?", "Quand devrais-je me faire tester pour la COVID-19 ?", "Quels sont les vaccins disponibles contre la COVID-19 ?"],
+            "responses": ["Les symptômes courants de la COVID-19 incluent la fièvre, la toux, les difficultés respiratoires, la perte de goût ou d'odorat, la fatigue et les douleurs musculaires. Pour vous protéger contre la COVID-19, il est recommandé de vous faire vacciner si vous êtes éligible, de porter un masque, de pratiquer la distanciation sociale, de vous laver fréquemment les mains et d'éviter les rassemblements non essentiels. Si vous présentez des symptômes de la COVID-19 ou si vous avez été en contact avec une personne infectée, il est important de vous faire tester. Plusieurs vaccins sont disponibles pour prévenir la COVID-19, notamment ceux développés par Pfizer-BioNTech, Moderna et Johnson & Johnson."],
+            "contexte": [""]
+        },
+        {
+            "tag": "nutrition",
+            "patterns": ["Quelle est l'importance de la nutrition pour la santé ?", "Quels sont les nutriments essentiels que je devrais inclure dans mon alimentation ?", "Comment puis-je manger équilibré ?", "Donnez-moi des conseils pour une alimentation saine."],
+            "responses": ["La nutrition joue un rôle essentiel dans la santé globale de votre corps. Une alimentation équilibrée fournit les nutriments essentiels dont votre corps a besoin pour fonctionner correctement, tels que les protéines, les glucides, les graisses, les vitamines et les minéraux. Pour manger équilibré, essayez de consommer une variété d'aliments, y compris des fruits et légumes, des céréales complètes, des protéines maigres et des graisses saines. Limitez la consommation d'aliments transformés, de sucre ajouté et de sel. Il est également important de surveiller les portions et de rester hydraté en buvant suffisamment d'eau."],
+            "contexte": [""]
+        },
+        {
+            "tag": "alimentation_vegetarienne",
+            "patterns": ["Quels sont les avantages d'une alimentation végétarienne ?", "Comment puis-je adopter un régime alimentaire végétarien ?", "Quels sont les nutriments importants pour les végétariens ?", "Donnez-moi des conseils pour une alimentation végétarienne équilibrée."],
+            "responses": ["Une alimentation végétarienne bien planifiée peut avoir de nombreux avantages pour la santé, notamment la réduction du risque de maladies cardiaques, de diabète de type 2 et de certains types de cancer. Pour adopter un régime alimentaire végétarien, envisagez de remplacer les viandes par des sources de protéines végétales telles que les légumineuses, le tofu et les noix. Assurez-vous de consommer une variété d'aliments pour obtenir tous les nutriments essentiels, y compris les protéines, le fer, le calcium, la vitamine B12 et les acides gras oméga-3. Consultez un professionnel de la santé ou un nutritionniste pour vous assurer que votre alimentation végétarienne est équilibrée et adaptée à vos besoins nutritionnels."],
+            "contexte": [""]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": ["Qu'est-ce que l'hypertension artérielle ?", "Quels sont les facteurs de risque de l'hypertension ?", "Comment puis-je prévenir ou gérer l'hypertension ?", "Quels sont les traitements disponibles pour l'hypertension ?"],
+            "responses": ["L'hypertension artérielle, également appelée tension artérielle élevée, est une condition où la force du sang contre les parois des artères est trop élevée. Les facteurs de risque de l'hypertension comprennent une mauvaise alimentation, le manque d'exercice, le tabagisme, la consommation excessive d'alcool, le stress, l'âge et des antécédents familiaux. Pour prévenir ou gérer l'hypertension, il est recommandé de maintenir un mode de vie sain, y compris une alimentation équilibrée, la réduction de la consommation de sel, l'exercice régulier, l'arrêt du tabac et la gestion du stress. Dans certains cas, des médicaments peuvent être nécessaires pour contrôler la pression artérielle."],
+            "contexte": [""]
+        },
+        {
+            "tag": "diabete",
+            "patterns": ["Qu'est-ce que le diabète ?", "Quels sont les types de diabète ?", "Comment puis-je prévenir le diabète de type 2 ?", "Comment le diabète est-il traité ?"],
+            "responses": ["Le diabète est une maladie chronique qui affecte la façon dont votre corps utilise le glucose (sucre) sanguin. Il existe principalement deux types de diabète : le diabète de type 1, qui est généralement diagnostiqué dès l'enfance et est dû à une absence de production d'insuline par le corps, et le diabète de type 2, qui survient généralement plus tard dans la vie et est souvent associé à des facteurs de risque tels que l'obésité, l'inactivité physique et une mauvaise alimentation. Pour prévenir le diabète de type 2, il est recommandé de maintenir un poids santé, de manger équilibré, de faire de l'exercice régulièrement et de surveiller votre glycémie si vous avez des facteurs de risque. Le traitement du diabète peut impliquer des médicaments, l'insuline, un régime alimentaire spécifique et de l'exercice."],
+            "contexte": [""]
+        },
+        {
+            "tag": "maladies_infectieuses",
+            "patterns": ["Comment puis-je me protéger contre les maladies infectieuses ?", "Quels sont les symptômes courants des maladies infectieuses ?", "Comment se propagent les maladies infectieuses ?", "Quels sont les vaccins disponibles pour prévenir les maladies infectieuses ?"],
+            "responses": ["Pour vous protéger contre les maladies infectieuses, il est important de pratiquer une bonne hygiène personnelle, notamment en vous lavant fréquemment les mains avec du savon et de l'eau, en évitant le contact étroit avec des personnes malades, en couvrant votre bouche et votre nez lorsque vous toussez ou éternuez, et en restant à jour avec les vaccinations recommandées. Les symptômes courants des maladies infectieuses incluent la fièvre, la toux, les maux de tête, la fatigue et les douleurs musculaires. Les maladies infectieuses se propagent généralement par des germes tels que les bactéries, les virus et les parasites. Les vaccins sont disponibles pour prévenir de nombreuses maladies infectieuses courantes, y compris la grippe, la rougeole, la varicelle et bien d'autres."],
+            "contexte": [""]
+        },
+        {
+            "tag": "vieillissement_sain",
+            "patterns": ["Comment puis-je rester en bonne santé en vieillissant ?", "Quels sont les défis courants liés au vieillissement ?", "Comment puis-je maintenir ma mobilité et ma vitalité à mesure que je vieillis ?", "Donnez-moi des conseils pour un vieillissement sain."],
+            "responses": ["Pour rester en bonne santé en vieillissant, il est important de maintenir un mode de vie actif en faisant de l'exercice régulièrement pour maintenir la force musculaire et la mobilité. Une alimentation équilibrée riche en nutriments est également essentielle pour soutenir la santé des os et la fonction cognitive. Le maintien de liens sociaux solides et la stimulation mentale peuvent aider à préserver la santé mentale. Il est également important de consulter régulièrement votre professionnel de la santé pour des bilans de santé et des examens médicaux de routine. Bien que le vieillissement puisse présenter des défis, un mode de vie sain et une attitude positive peuvent contribuer à un vieillissement sain et épanouissant."],
+            "contexte": [""]
+        },
+        {
+            "tag": "perte_de_poids",
+            "patterns": ["Comment puis-je perdre du poids de manière saine ?", "Quels sont les avantages d'une perte de poids saine ?", "Quels sont les pièges courants à éviter lors de la perte de poids ?", "Donnez-moi des conseils pour atteindre et maintenir un poids santé."],
+            "responses": ["La perte de poids saine implique de faire des changements durables dans votre alimentation et votre mode de vie. Il est recommandé de viser une perte de poids progressive, en visant à perdre environ 0,5 à 1 kg par semaine. Pour atteindre et maintenir un poids santé, il est essentiel de manger équilibré, de contrôler les portions, de faire de l'exercice régulièrement et de surveiller votre consommation de calories. Évitez les régimes drastiques qui promettent une perte de poids rapide, car ils peuvent être nuisibles à long terme. Consultez un professionnel de la santé ou un nutritionniste pour obtenir un plan de perte de poids personnalisé."],
+            "contexte": [""]
+        },
+        {
+            "tag": "douleur_chronique",
+            "patterns": ["Comment puis-je gérer la douleur chronique ?", "Quelles sont les causes courantes de la douleur chronique ?", "Quand devrais-je consulter un médecin pour la douleur chronique ?", "Donnez-moi des conseils pour améliorer ma qualité de vie avec la douleur chronique."],
+            "responses": ["La gestion de la douleur chronique peut être complexe et nécessite souvent une approche multidisciplinaire. Les causes courantes de la douleur chronique comprennent l'arthrite, les maux de dos, les migraines et les douleurs neuropathiques. Pour gérer la douleur, travaillez en étroite collaboration avec votre professionnel de la santé pour élaborer un plan de traitement qui peut inclure des médicaments, de la physiothérapie, de la psychothérapie, des techniques de gestion du stress, et parfois des interventions chirurgicales. Il est important de consulter un médecin pour la douleur chronique si elle affecte votre qualité de vie et persiste pendant une longue période."],
+            "contexte": [""]
+        },
+        {
+            "tag": "alzheimer",
+            "patterns": ["Qu'est-ce que la maladie d'Alzheimer ?", "Quels sont les symptômes précoces de la maladie d'Alzheimer ?", "Comment la maladie d'Alzheimer est-elle diagnostiquée ?", "Y a-t-il des traitements disponibles pour la maladie d'Alzheimer ?"],
+            "responses": ["La maladie d'Alzheimer est une maladie neurodégénérative progressive qui affecte la mémoire, la pensée et le comportement. Les symptômes précoces peuvent inclure des problèmes de mémoire, des difficultés à accomplir des tâches quotidiennes, la confusion et des changements d'humeur. Le diagnostic de la maladie d'Alzheimer repose sur des évaluations cliniques, des tests cognitifs et des examens médicaux pour exclure d'autres causes possibles des symptômes. Malheureusement, il n'existe actuellement pas de traitement curatif pour la maladie d'Alzheimer, mais certaines médications peuvent aider à gérer les symptômes et à ralentir la progression de la maladie."],
+            "contexte": [""]
+        },
+        {
+            "tag": "enova",
+            "patterns": ["Parlez-moi de ENOVA R&T", "Qu'est-ce que ENOVA R&T ?", "À propos de ENOVA R&T"],
+            "responses": ["ENOVA R&T est le principal fournisseur de solutions de systèmes d'information sur la santé (HIS) au Maroc. Forte de près de 20 ans d'expérience, l'entreprise est un partenaire de confiance des établissements de santé, offrant une large gamme de services pour optimiser leurs opérations de gestion et améliorer les résultats des patients.",
+                          "Avec les solutions d'ENOVA R&T, les établissements de santé peuvent rationaliser leurs processus et se concentrer sur la fourniture de soins de haute qualité à leurs patients. ENOVA R&T propose un système d'information hospitalier (HIS) hautement personnalisable appelé ENOVA Santé, qui s'intègre parfaitement aux infrastructures hospitalières existantes et offre divers modules adaptables, notamment des systèmes d'enregistrement médical électronique, des plates-formes de télémédecine, des systèmes de prise de décision clinique, et bien plus encore. ENOVA Santé offre des soins flexibles et efficaces aux patients, de l'admission à la sortie."],
+            "context": [""]
+        },
+        {
+            "tag": "mission_vision",
+            "patterns": ["Quelle est la mission d'ENOVA R&T ?", "Parlez-moi de la vision d'ENOVA R&T", "Quels sont les projets actuels d'ENOVA R&T ?"],
+            "responses": ["La mission d'ENOVA R&T est de soutenir les professionnels de la santé dans leur travail quotidien en fournissant des solutions technologiques avancées pour offrir des soins de la plus haute qualité à leurs patients. En aidant les établissements de santé à optimiser leurs processus de gestion, ENOVA R&T permet aux professionnels de la santé de se concentrer davantage sur ce qui compte le plus : améliorer la vie des gens.",
+                          "Actuellement, le système d'information hospitalier ENOVA Santé est déployé dans cinq régions du Maroc, notamment Tanger Tétouan Al Hoceima, Béni Mellal Khénifra, Souss Massa, Laâyoune Sakia El Hamra et Dakhla Oued Ed-Dahab. Plus de 1000 établissements de santé, dont des hôpitaux universitaires, des hôpitaux régionaux et des centres d'oncologie, comptent quotidiennement sur ENOVA Santé. L'entreprise s'engage à fournir un soutien continu et une assistance pour optimiser l'utilisation de ses solutions.",
+                          "L'équipe de données d'ENOVA R&T joue un rôle central dans la transformation numérique de l'entreprise. Composée d'enthousiastes de l'analyse de données, cette équipe est chargée de mettre en œuvre des solutions de science des données et d'intelligence d'affaires pour améliorer les processus internes de l'entreprise et soutenir les établissements de santé partenaires."],
+            "context": [""]
+        },
+        {
+            "tag": "company_details",
+            "patterns": ["Parlez-moi davantage d'ENOVA R&T", "Quels sont les services d'ENOVA R&T ?", "Où est située ENOVA R&T ?", "Quel est le site web d'ENOVA R&T ?"],
+            "responses": ["Voici quelques détails clés sur ENOVA R&T :",
+                          "- Nom : ENOVA Research & Technology",
+                          "- Secteur : Conseil et Stratégie, Développement de Solutions Logicielles, Recherche et Développement",
+                          "- Année de Fondation : 2006",
+                          "- Siège Social : Angle Rue Ait Malek et Rocade de Rabat, ZENITH - Bâtiment D, RDJ, Rabat 10220, Maroc",
+                          "- Services : Transformation Numérique, Support et Formation, Gestion des Données",
+                          "- Site Web : [www.enova.ma](https://www.enova.ma)",
+                          "- Médias Sociaux :",
+                          "  - LinkedIn : [ENova R&T LinkedIn](https://www.linkedin.com/company/enova-rt)",
+                          "  - Twitter : [ENova R&T Twitter](https://twitter.com/enova_t)",
+                          "  - Instagram : [ENova R&T Instagram](https://www.instagram.com/enova_rt/)",
+                          "  - Facebook : [ENova R&T Facebook](https://www.facebook.com/enova.ma/)"],
+            "context": [""]
+        },
+        {
+            "tag": "cancer",
+            "patterns": ["Quels sont les facteurs de risque de cancer ?", "Comment puis-je réduire mon risque de cancer ?", "Quels sont les signes courants du cancer ?", "Quels sont les traitements disponibles pour le cancer ?"],
+            "responses": ["Je peux vous aider à diagnostiquer le cancer. Veuillez me fournir : région, âge, sexe, grossesses, ménopause, naissances (pour les femmes), antécédents familiaux de cancer (oui/non), pénicilline, tabac, alcool"],
+            "contexte": [""]
+        }
+    ]
+}
+

@@ -1,0 +1,19 @@
+scikit-learn == 1.2.2
+openpyxl
+imblearn
+pandas
+streamlit
+streamlit-option-menu
+Pillow
+requests
+streamlit-lottie
+plotly
+joblib == 1.2.0
+nltk
+numpy
+keras == 2.13.1
+matplotlib
+imbalanced-learn
+dataclasses
+typing-extensions
+tensorflow == 2.13.0
